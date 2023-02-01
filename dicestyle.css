@@ -1,14 +1,17 @@
 h1 {
 	text-align: center;
-	background-color: chocolate;
+	background-color: cadetblue;
+	/*I might want to go back to chocolate. Testing cadetblue*/
 	
 }
 h2{
 	text-align: center;
+
 	
 }
 h3{
 	text-align: center;
+	background-color: cadetblue;
 	
 }
 h4{
@@ -28,8 +31,15 @@ p {
 	color:lightpink;
 	text-align: center;
 }
-	
 
 body {
-	background-color: green;
+	background-color: burlywood;
+}
+
+div{
+	width: 500px;
+	margin: auto;
+	background-color: orange;
+	text-align: center;
+	
 }
