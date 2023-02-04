@@ -1,6 +1,6 @@
 const names = ["Die1.png","Die2.png","Die3.png","Die4.png","Die5.png","Die6.png"];
 
-function myFunct(){
+function roll(){
     var y1 = Math.floor((Math.random()* 6));
     var y2 = Math.floor((Math.random()* 6));
     let name1 = names[y1];
