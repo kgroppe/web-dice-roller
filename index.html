@@ -2,29 +2,23 @@
 <html lang="en">
 
 <head>
-
 <meta charset="utf-8">
-
 <link rel="stylesheet" href="dicestyle.css">
-<img src="Die1.png" alt="die1">
-    <img src="Die2.png" alt="die2">
-    <img src="Die3.png" alt="die3">
-    <img src="Die4.png" alt="die4">
-    <img src="Die5.png" alt="die5">
-    <img src="Die6.png" alt="die6">
-<script src="diceJavaScript.js"></script>
-
 <title>Web Dice Roller</title>
-
+<script src="diceJavaScript.js"></script>
 </head>
 
-<body>
-<h1>Welcome to Dice Roller!</h1>
-<div>Have you ever lost your dice for that one game that you really wanted to play? Well, I have the
-    solution for you!</div>
-<h3>Behold:</h3>
-<h2><strong>THE DICE ROLLER</strong></h2>
-<div>This website, upon opening, automatically rolls a six-sided die.
-The option to reroll the die will be there in the form of a button.</div>
+<body onload="myFunct()">
+
+<h1>Welcome to Monopoly Dice Roller!</h1>
+<div>Can't play Monopoly at family game night because someone <i><q>lost</q></i> the dice last time?</div>
+<h2><strong><i>Behold:</i></strong></h2>
+<h3></h3>
+<h1><strong>MONOPOLY DICE ROLLER</strong></h1>
+<div>To re-roll the dice, simply hit <q>ENTER</q> on the keyboard, or click on the
+<q>Roll Again?</q> button at the bottom of the screen.</div>
+<img id="D1" src="Die1.png" class="die">
+<img id="D2" src="Die2.png" class="die">
+<button type="button" id="sleepy" onclick="myFunct()" autofocus><i>Roll Again?</i></button>
 </body>
 
